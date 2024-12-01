@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "start": "vercel dev",        // Runs your project locally for development
+    "deploy": "vercel --prod",   // Deploys your project to production
+    "build": "vercel build"      // Builds your project for production
+    
   },
   "devDependencies": {
     "vite": "^4.0.4"
